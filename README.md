@@ -1,14 +1,24 @@
+# date-helper
 
-```
-# DateHelper Package
-The `DateHelper` class provides utility methods for working with date and Time
+The `date-helper` package is a comprehensive utility for handling date and time operations in JavaScript applications. With its intuitive API and robust functionality, it simplifies common tasks such as date validation, formatting, timezone conversion, and date arithmetic.
+
+## Features
+
+- **Date Validation**: Check the validity of date strings.
+- **Current UTC Date and Time**: Obtain the current UTC date and time.
+- **Date Scheduling**: Schedule dates from the current time.
+- **Date Formatting**: Format dates according to various formats.
+- **Timezone Conversion**: Convert dates to different timezones.
+- **Date Arithmetic**: Add and subtract time intervals from dates.
+- **Date Unit Calculation**: Compute the start and end of specific date units.
+- **Date Difference Calculation**: Calculate the difference between two dates.
 
 ## Installation
 
-To use the `DateHelper` class in your project, you need to install the `moment-timezone` package. You can install it via npm:
+To use the `DateHelper` class in your project, you need to install the `date-helper` package. You can install it via npm:
 
 ```bash
-npm install @dexbytes/datehelper
+npm install date-helper
 ```
 
 ## Usage
@@ -16,7 +26,7 @@ npm install @dexbytes/datehelper
 Import the `DateHelper` class into your project:
 
 ```typescript
-import { DateHelper, DateFormat } from '@dexbytes/datehelper';
+import { DateHelper, DateFormat } from 'date-helper';
 ```
 
 ### isDate
@@ -59,7 +69,7 @@ console.log('Current UTC date string:', utcDateString);
 Get the current UTC date in a specific format:
 
 ```typescript
-const formattedUtcDate = DateHelper.getUtcFormat();
+const formattedUtcDate = DateHelper.getUtcFormat(DateFormat.YYYY_MM_DD_HH_MM_SS);
 console.log('Formatted UTC date:', formattedUtcDate);
 // Expected output: Formatted UTC date: [Formatted UTC date and time according to specified format]
 ```
@@ -184,7 +194,6 @@ console.log('Duration from now as string:', durationAsString);
 // Expected output: Duration from now as string: [Human-readable duration from now to the specified date]
 ```
 
----
+## Contribution
 
-This README file provides usage examples for each function in the `DateHelper` class.
-```
+If you have any questions about contributing to this project, feel free to reach out to us at [contact@dexbytes.com](mailto:contact@dexbytes.com).
