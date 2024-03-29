@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="18" failures="0" errors="0" time="2.376">
+  <testsuite name="DateHelper" errors="0" failures="0" skipped="0" timestamp="2024-03-29T09:32:14" time="2.225" tests="18">
+    <testcase classname="DateHelper DateHelper.isDate should return true for a valid date string" name="DateHelper DateHelper.isDate should return true for a valid date string" time="0.003">
+    </testcase>
+    <testcase classname="DateHelper DateHelper.isDate should return false for an invalid date string" name="DateHelper DateHelper.isDate should return false for an invalid date string" time="0.001">
+    </testcase>
+    <testcase classname="DateHelper getUtc should return a UTC date as Date object" name="DateHelper getUtc should return a UTC date as Date object" time="0.004">
+    </testcase>
+    <testcase classname="DateHelper getUtcString should return a UTC date as ISO string" name="DateHelper getUtcString should return a UTC date as ISO string" time="0.001">
+    </testcase>
+    <testcase classname="DateHelper getUtcString should return the current UTC date as ISO string when no date is provided" name="DateHelper getUtcString should return the current UTC date as ISO string when no date is provided" time="0">
+    </testcase>
+    <testcase classname="DateHelper getUtcFormat should return a UTC date in a specific format" name="DateHelper getUtcFormat should return a UTC date in a specific format" time="0.001">
+    </testcase>
+    <testcase classname="DateHelper getUtcFormat should return the current UTC date in a specific format when no date is provided" name="DateHelper getUtcFormat should return the current UTC date in a specific format when no date is provided" time="0.001">
+    </testcase>
+    <testcase classname="DateHelper scheduleFromNow should schedule a date from now" name="DateHelper scheduleFromNow should schedule a date from now" time="0.003">
+    </testcase>
+    <testcase classname="DateHelper formatDateTime should format a date time" name="DateHelper formatDateTime should format a date time" time="0.002">
+    </testcase>
+    <testcase classname="DateHelper formatDateTimeRaw should format a date time without timezone" name="DateHelper formatDateTimeRaw should format a date time without timezone" time="0.001">
+    </testcase>
+    <testcase classname="DateHelper getDateTimeForTimezone should get date time for a specific timezone" name="DateHelper getDateTimeForTimezone should get date time for a specific timezone" time="0">
+    </testcase>
+    <testcase classname="DateHelper addDate should add days to a date" name="DateHelper addDate should add days to a date" time="0">
+    </testcase>
+    <testcase classname="DateHelper subtractDate should subtract days from a date" name="DateHelper subtractDate should subtract days from a date" time="0">
+    </testcase>
+    <testcase classname="DateHelper getStartOf should get the start of a date unit" name="DateHelper getStartOf should get the start of a date unit" time="0.002">
+    </testcase>
+    <testcase classname="DateHelper getEndOf should get the end of a date unit" name="DateHelper getEndOf should get the end of a date unit" time="0">
+    </testcase>
+    <testcase classname="DateHelper dateDiffFormatted should return formatted date difference" name="DateHelper dateDiffFormatted should return formatted date difference" time="0.002">
+    </testcase>
+    <testcase classname="DateHelper durationFromNowInMinutes should return duration from now in minutes" name="DateHelper durationFromNowInMinutes should return duration from now in minutes" time="0.001">
+    </testcase>
+    <testcase classname="DateHelper durationFromNowAsString should return duration from now as string" name="DateHelper durationFromNowAsString should return duration from now as string" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>
