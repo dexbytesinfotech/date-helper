@@ -16,7 +16,7 @@ To contribute to this project, follow these steps:
 
 A big thank you to the following contributors for their valuable contributions to `@dexbytes/date-helper`:
 
-- Mithu Das
+- Mr.Mithun Das
 - Manish Patil
 
 ## License
