@@ -16,11 +16,10 @@ The `date-helper` package is a comprehensive utility for handling date and time 
 ## Installation
 
 To use the `DateHelper` class in your project, you need to install the `date-helper` package. You can install it via npm:
-
 ```bash
 npm install date-helper
 ```
-
+You can visit our repository by using this link  https://github.com/dexbytesinfotech/date-helper.git
 ## Usage
 
 Import the `DateHelper` class into your project:
